@@ -1,41 +1,9 @@
 /* Imports */
 import React, { useState } from "react";
-import styled from "styled-components";
-import Todo from "./Todo";
-import TodoForm from "./TodoForm";
-/* Style */
-const StyledTodoApp = styled.div`
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    border: 5px solid;
-    .todo-list {
-        background: #e8e8e8;
-        border-radius: 4px;
-        max-width: 400px;
-        padding: 5px;
-        width: 300px;
-        margin: 10px 0 25px;
-    }
-    .todo {
-        align-items: center;
-        background: #fff;
-        border-radius: 3px;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-        display: flex;
-        font-size: 12px;
-        justify-content: space-between;
-        margin-bottom: 6px;
-        padding: 3px 10px;
-    }
-    .todo-form{
-        display: flex;
-        justify-content: center;
-    }
-    .input{
-        width: 200px;
-    }
-`
+import { StyledTodoApp } from "./todo-components/TodoStyle";
+import Todo from "./todo-components/Todo";
+import TodoForm from "./todo-components/TodoForm";
+
 /* Data */
 const intialList = [
     { 
@@ -56,7 +24,7 @@ export default function TodoApp() {
     const [todos, setTodos] = useState(intialList);
     
       const addTodo = text => {
-        const newTodos = [...todos, { text }];
+        const newTodos = [...todos, { text, isCompleted: false }];
         setTodos(newTodos);
       }
     
@@ -80,7 +48,7 @@ export default function TodoApp() {
     
       return (
         <StyledTodoApp>
-          <h1>Simple To-Do App</h1>
+          <h2>Simple To-Do App</h2>
           <div className="todo-list">
             {todos.map((todo, index) => (
               <Todo

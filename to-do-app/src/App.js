@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import TodoApp from "./components/TodoApp/TodoApp";
+import CalculatorApp from "./components/CalculatorApp/CalculatorApp";
 
 function App() {
   return(
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className="todoApp">
         <TodoApp/>
+      </div>
+      <div className="calcApp">
+        <CalculatorApp/>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { StyledTodoForm } from "./TodoStyle";
 
 export default function TodoForm({ addTodo }){
     const [value, setValue] = useState("");
@@ -11,13 +12,14 @@ export default function TodoForm({ addTodo }){
     };
   
     return(
-      <form className="todo-form" onSubmit={handleSubmit}>
+      <StyledTodoForm className="todo-form" onSubmit={handleSubmit}>
         <input
           type="text"
-          className="input"
+          className="text-input"
           value={value}
           onChange={evt => setValue(evt.target.value)}
         />
-      </form>
+        <input type="submit" className="submit"/>
+      </StyledTodoForm>
     )
   }

@@ -1,22 +1,27 @@
 import React from "react";
+import { StyledTodo } from "./TodoStyle";
 
 export default function Todo({ todo, index, completeTodo, undoTodo, removeTodo }) {
     return (
-      <div 
+      <StyledTodo
         className="todo"
         style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
       >
         {todo.text}
         <div>
-          <button 
-            onClick={() => completeTodo(index)} 
-            onDoubleClick={() => undoTodo(index)}>
-            Complete
-          </button>
+          {todo.isCompleted === false ?
+            <button onClick={() => completeTodo(index)}>
+              Complete
+            </button> :
+            <button onClick={() => undoTodo(index)}>
+              Undo
+            </button>
+          }
+          
           <button onClick={() => removeTodo(index)}>
             Delete
           </button>
         </div>
-      </div>
+      </StyledTodo>
     );
   }

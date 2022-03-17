@@ -1,8 +1,17 @@
 .App-main {
   background: #209cee;
   height: 100vn;
-  padding: 30px;
+  padding: 1px 30px;
 }
 .home {
   text-align: center;
+  padding-bottom: 5px;
+}
+.todoApp {
+  border: 5px solid;
+  margin-bottom: 15px;
+}
+.calcApp {
+  border: 5px solid;
+  margin-bottom: 15px;
 }
