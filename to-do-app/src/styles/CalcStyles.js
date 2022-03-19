@@ -4,6 +4,8 @@ const StyledCalcApp = styled.div`
     display: flex;
     flex-flow: column;
     align-items: center;
+    border: 5px solid;
+    margin-bottom: 15px;
     .calculator {
         width: 340px;
         height: 540px;

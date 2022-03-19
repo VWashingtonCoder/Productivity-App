@@ -1,6 +1,6 @@
 /* Imports */
 import React, { useState } from "react";
-import { StyledTodoApp } from "./todo-components/TodoStyle";
+import { StyledTodoApp } from "../../styles/TodoStyle";
 import Todo from "./todo-components/Todo";
 import TodoForm from "./todo-components/TodoForm";
 

@@ -1,6 +1,6 @@
 /* Imports */
 import React, { useState } from "react";
-import { StyledCalcApp } from "./calc-components/CalcStyles";
+import { StyledCalcApp } from "../../styles/CalcStyles";
 import { initialDisplay, btnValues } from "./calc-components/Data"
 import Screen from "./calc-components/Screen";
 import Buttons from "./calc-components/Buttons";

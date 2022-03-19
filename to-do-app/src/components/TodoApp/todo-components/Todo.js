@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledTodo } from "./TodoStyle";
+import { StyledTodo } from "../../../styles/TodoStyle";
 
 export default function Todo({ todo, index, completeTodo, undoTodo, removeTodo }) {
     return (

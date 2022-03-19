@@ -1,5 +1,5 @@
 import { Textfit } from "react-textfit";
-import { StyledScreen } from "./CalcStyles";
+import { StyledScreen } from "../../../styles/CalcStyles";
 
 const Screen = ({ value }) => {
     return (

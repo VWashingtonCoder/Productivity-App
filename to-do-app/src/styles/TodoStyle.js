@@ -4,6 +4,8 @@ const StyledTodoApp = styled.div`
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    border: 5px solid;
+    margin-bottom: 15px;
     .todo-list {
         background: #e8e8e8;
         border-radius: 7px;

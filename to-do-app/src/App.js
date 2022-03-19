@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import TodoApp from "./components/TodoApp/TodoApp";
 import CalculatorApp from "./components/CalculatorApp/CalculatorApp";
+import TempConvApp from "./components/TemperatureConverterApp/TempConvApp";
 
 function App() {
   return(
@@ -16,6 +17,9 @@ function App() {
       <div className="calcApp">
         <CalculatorApp/>
       </div>
+      <div className="tempApp">
+        <TempConvApp/>
+      </div> 
     </div>
   )
 }

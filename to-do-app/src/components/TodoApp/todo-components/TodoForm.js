@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyledTodoForm } from "./TodoStyle";
+import { StyledTodoForm } from "../../../styles/TodoStyle";
 
 export default function TodoForm({ addTodo }){
     const [value, setValue] = useState("");

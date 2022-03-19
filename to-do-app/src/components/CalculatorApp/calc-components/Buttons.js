@@ -1,4 +1,4 @@
-import { StyledButtons } from "./CalcStyles"
+import { StyledButtons } from "../../../styles/CalcStyles"
 
 export default function Buttons({ className, value, onClick }){
     return(
