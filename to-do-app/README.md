@@ -1,6 +1,14 @@
 # Simple Productivity Apps
 Simple collection of productivity apps including a calculator, temperature converter and todo list
 
+- To-Do List Preview:
+    ![To-Do List Preview]("../../src/images/todo-preview.jpg")
+- Calculator Preview:
+    ![Calculator Preview]("../../src/images/calc-preview.jpg")
+- Temperature Converter Preview:
+    ![Temperature Converter Preview]("../../src/images/temp-preview.jpg")
+
+
 ## Available Scripts
 
 In the project directory, you can run:
