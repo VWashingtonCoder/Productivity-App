@@ -50,8 +50,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
     "web-vitals": "^2.1.4"
 
 ## Status
-- Awaiting Deployment
+- Deployed to Vercel (productivity-app-bice.vercel.app)
 
 ## Authors
 - Vincent Washington (Andre)
-    * npx vincentwashington202@gmail.com
+    * vincentwashington202@gmail.com
