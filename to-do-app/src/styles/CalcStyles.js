@@ -5,7 +5,7 @@ const StyledCalcApp = styled.div`
     flex-flow: column;
     align-items: center;
     border: 5px solid;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     .calculator {
         width: 340px;
         height: 540px;

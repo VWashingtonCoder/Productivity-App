@@ -54,4 +54,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Authors
 - Vincent Washington (Andre)
-    * vincentwashington202@gmail.com
+    * npx vincentwashington202@gmail.com
